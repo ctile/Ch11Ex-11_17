@@ -1,0 +1,181 @@
+body {
+    font-family:sans-serif;
+    font-size:small;
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+    line-height: 1.6em;
+}
+
+h1, h2 {
+    color: aquamarine;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#elixirs {
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  width: 200px;
+  border: thin solid #007e7e;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  line-height: 1;
+}
+
+/*h2 {
+  font-size: 300%;
+}*/
+
+#elixirs h2 {
+  color: black;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+}
+
+/*h2 {
+  text-align: right;
+}*/
+
+#guarantee {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.9em;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  border: thick white dashed;
+  background-color: #007e7e;
+  color: white;  
+}
+
+#copyright {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.cd-title {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+#music-section {
+  /*border-bottom: thick dotted black;
+  border-top: thin dotted black;*/
+  border: 10px outset #007e7e;
+}
+
+a:link {
+  color: #007e7e;
+}
+
+a:visited {
+  color: #333333;
+  transition: 1s;
+}
+
+a:active {
+  color: #f88396;
+}
+
+a:focus {
+  border: 20px solid #0d5353;
+  color: orange;
+  transition: 1s;
+}
+
+a {
+    transition: 1s;
+}
+
+#elixirs a:hover {
+   background-color: #f88396;
+   color: #0d5353;
+}
+
+@media screen and (min-width: 481px) {
+    #guarantee {
+        background-image: url(images/background.gif);
+        background-repeat: no-repeat;
+        margin-right: 250px;
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #guarantee {
+        margin-right: 0px;
+        padding-left: 25px;
+    }
+}
+
+@media print {
+    body {
+        font-family: webdings;
+    }
+}
+
+.greentea {
+	color:green;
+}
+
+.raspberry {
+	color:blue;
+}
+
+.blueberry {
+	color:purple;
+}
+
+p {  
+    /*background-color: red;
+    border: 5px solid gray;*/
+    color:maroon; 
+}
+
+h1, h2 {
+    /*color:gray;*/
+    color: #007e7e;
+    /*font-family:sans-serif;*/
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+em {
+	font-family:serif;
+    /*color:blue;*/
+    color:red;
+}
+
+em {
+	color:blue;
+}
+
+
+
+/*
+em.description {
+	font-weight: bold;
+}
+
+.red {
+	background-color:red;
+}*/
