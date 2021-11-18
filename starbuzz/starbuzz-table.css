@@ -15,13 +15,21 @@ body {
   display: table-cell;
   vertical-align: top;
 }
-
+#award {
+  position: absolute;
+  top: 30px;
+  left: 365px;
+}
 #header {
   background-color: #675c47;
   margin: 10px 10px 0px 10px;
   height: 108px;
 }
-
+#drinks {
+  width: 20%;
+  padding: 15px;
+  background: #efe5d0 url(images/background.gif) top left;
+}
 #main {
   background: #efe5d0 url(images/background.gif) top left;
   font-size: 105%;
@@ -34,6 +42,8 @@ body {
   font-size: 105%;
   padding: 15px;
   margin: 0px 10px 10px 10px;
+  width: 280px;
+  /*to edit width of table column*/
 }
 
 #footer {
